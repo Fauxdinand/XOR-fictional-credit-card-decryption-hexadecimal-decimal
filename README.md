@@ -4,10 +4,10 @@ Simple Python function which takes as input credit card number and fixed key str
 
 Meant to solve a weak encryption scenario sometimes found in tutorials/ activities one can encounter while learning about encryption.
 
-I wrote this to replace manually performing XOR with a table, since I could not find a python prpgram online which was of any help,
+I wrote this to replace manually performing XOR with a table, since I could not find a python program online which was of any help,
 and I find manually performing XOR was incredible boring. 
 
-Feel free to rewrite it to your purpose/ need if your scenario is different.
+Feel free to rewrite it to your purpose/ need if your scenario is different, or you see how to vastly improve it.
 
 The program exits with a reminder to remove hex-prefix after 16 digits has been entered, and it has no error handling. 
 
