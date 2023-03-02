@@ -10,7 +10,7 @@ def xorcount():
         print(hex(xor))
         count +=1
     if count == (16):
-         print('Finished! Remember to remove prefix 0x')
+         print('Finished! Remember to remove prefix: 0x')
 
 xorcount()
 
