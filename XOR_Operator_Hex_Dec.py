@@ -11,8 +11,8 @@ def xorcount():
     hl = []
     try:
         while c!=(16):
-            d = int(input('Enter dec: '))
-            h = int(input('Enter hex: '), 16)
+            d = int(input('Enter \033[1m\033[94mdec \033[0m: '))
+            h = int(input('Enter \033[1m\033[92mhex \033[0m: '), 16)
             xr = ((d)^(h))
             np = format(xr, 'x')
             hs = np.upper()
