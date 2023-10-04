@@ -7,10 +7,12 @@ def xorcount():
         deci = int(input('Enter dec: '))
         hexa = int(input('Enter hex: '), 16)
         xor = ((deci)^(hexa))
-        hexalist.append(hex(xor))
+        intror = int(xor)
+        noprefix = intror
+        hexalist.append(noprefix)
         count +=1
     else:
-         print(hexalist)
+         print(f'\033[95m \033[92m XOR-operator finished:\033[0m')
+         print(f'\033[1m {hexalist} \033[0m')
 
 xorcount()
-
