@@ -11,7 +11,7 @@ def xorcount():
         hexalist.append(noprefix)
         count +=1
     else:
-         print(f'\033[95m \033[92m XOR-operator finished:\033[0m')
+         print(f'\033[95m \033[92m The duck says \N{Duck}: "XOR-operator finished: "\033[0m')
          print(f'\033[1m {hexalist} \033[0m')
 
 xorcount()
