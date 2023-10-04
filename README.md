@@ -1,15 +1,13 @@
 # XOR-operator-for-dec-input-hex-input
 
-Simple Python function which takes as input credit card number and fixed key stream cipher stored in hex at the database.
-
+USE:
 Meant to solve a weak encryption scenario sometimes found in tutorials/ activities one can encounter while learning about encryption.
 
+Simple Python function which takes as input a single credit card number and the (fixed key stream cipher) equivalent stored in hex at the database. It performs a XOR-operation on each deci-hexa-pair and stores the result in a list. After 16 XOR-operations, which is the same number as credit card digits, the list is printed out.  
+
+BACKGROUND:
 I wrote this to replace manually performing XOR with a table, since I could not find a python program online which was of any help,
-and I find manually performing XOR was incredible boring. 
+and I also found performing XOR manually to be incredible boring. 
 
-Feel free to rewrite it to your purpose/ need if your scenario is different, or you see how to vastly improve it.
 
-The program exits with a reminder to remove hex-prefix after 16 digits has been entered, and it has no error handling. 
 
-Simple to use. Enter 1st decimal number (credit card), then enter first encrypted digit stored in hex at the database. 
-Then enter 2nd decimal number from credit card followed by 2nd encrypted digit stored as a hex value at the database, and so on. 
