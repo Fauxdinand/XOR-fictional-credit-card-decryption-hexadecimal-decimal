@@ -7,8 +7,7 @@ def xorcount():
         deci = int(input('Enter dec: '))
         hexa = int(input('Enter hex: '), 16)
         xor = ((deci)^(hexa))
-        intror = int(xor)
-        noprefix = intror
+        noprefix = int(xor)
         hexalist.append(noprefix)
         count +=1
     else:
