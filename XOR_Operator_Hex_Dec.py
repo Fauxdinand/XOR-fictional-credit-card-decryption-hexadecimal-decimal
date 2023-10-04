@@ -12,10 +12,10 @@ def xorcount():
     hl = []
     xl = []
     try:
-        while len(dl) !=(3):  
+        while len(dl) !=(16):  
             d = int(input('Enter \033[1m\033[94mdec \033[0m: '))
             dl.append(d)
-        while len(hl) !=(3):               
+        while len(hl) !=(16):               
             h = int(input('Enter \033[1m\033[92mhex \033[0m: '), 16)
             hl.append(h)
         for i in range(0, len(dl)):
