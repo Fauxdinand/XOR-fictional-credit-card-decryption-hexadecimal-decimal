@@ -4,7 +4,7 @@ USE:
 
 Meant to solve a weak encryption scenario sometimes found in tutorials/ activities one can encounter while learning about encryption.
 
-Simple Python function which takes as input a single credit card number and the (fixed key stream cipher) equivalent stored in hex at the database. It performs a XOR-operation on each deci-hexa-pair and stores the result in a list. After 16 XOR-operations, which is the same number as credit card digits, the list is printed out.  
+Simple Python function which takes as input a single credit card number and the (fixed key stream cipher) equivalent stored in hex at the database. It performs a XOR-operation on each deci-hexa-pair and stores the result in a list. After 16 XOR-operations, which is the same as the number of credit card digits, the list is printed out.  
 
 BACKGROUND:
 
