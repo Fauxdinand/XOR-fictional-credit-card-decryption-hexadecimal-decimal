@@ -1,9 +1,9 @@
 
 def xorcount():
     """ 
-    Only 1 digits at the time. First decimal and then hexadecimal
-    so the program can perform a XOR-operation on each pair 
-    before adding it to a list
+    Only 1 digit at the time. First 16 x decimal, then 16 x hexadecimal.
+    The program will then extract one item per list and perform a XOR-operation on each pair 
+    before adding it to a new list
 
     """
     d=0
