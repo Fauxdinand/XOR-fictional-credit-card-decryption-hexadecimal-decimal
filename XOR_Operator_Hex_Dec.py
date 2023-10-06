@@ -1,6 +1,6 @@
 def xorcount():
     """ 
-    Only 1 digits at the time. First decimal and then hexadecimal
+    Only 1 digit at the time. First decimal and then hexadecimal
     so the program can perform a XOR-operation on each pair 
     before adding it to a list
 
